@@ -14,4 +14,4 @@ The data encoding is very simple, for every byte in the original file, a div and
 
 **• non-python implementation**: rewrite the project in a much faster programming language such as c/c++. 
 
-**• encoding alphabet**: map the best 17 bytes out of the 31 available to the range of 0-16 to make the encoded text even more confusing(example: tab, newline, del, backspace). 
+**• encoding alphabet**: map the best 16 bytes out of the 31 available to the range of 0-16 to make the encoded text even more confusing(example: tab, newline, del, backspace). 
