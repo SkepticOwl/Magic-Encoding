@@ -8,10 +8,10 @@ The data encoding is very simple, for every byte in the original file, a div and
 ### This was a small project of mine, however if anyone wants to take it seriously here are a few ideas to try:
 **• encoding depth**: encode the file multiple times(however it can be bruteforced by checking for byte values above 17 and it will keep increasing the file size, probably useful for small text files)
 
-**• file compression**: compress the file without using bytes above 17(this may not be possible due to loss of information, but you're welcome to try it)
+**• file compression**: compress the file without using byte values above 31(this may not be possible due to loss of information, but you're welcome to try it)
 
 **• parallel processing**: utilize parallel programming to encode/decode files to increase speed. 
 
 **• non-python implementation**: rewrite the project in a much faster programming language such as c/c++. 
 
-**• encoding alphabet**: map the best 17 bytes out of the 31 available to the range of 0-17 to make the encoded text even more confusing(example: tab, newline, del, backspace). 
+**• encoding alphabet**: map the best 17 bytes out of the 31 available to the range of 0-16 to make the encoded text even more confusing(example: tab, newline, del, backspace). 
