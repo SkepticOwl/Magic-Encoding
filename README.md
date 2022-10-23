@@ -13,3 +13,5 @@ The data encoding is very simple, for every byte in the original file, a div and
 **• parallel processing**: utilize parallel programming to encode/decode files to increase speed. 
 
 **• non-python implementation**: rewrite the project in a much faster programming language such as c/c++. 
+
+**• encoding alphabet**: map the best 17 bytes out of the 31 available to the range of 0-17 to make the text even more confusing(example: tab, newline, del, backspace). 
